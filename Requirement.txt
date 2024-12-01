@@ -1,0 +1,18 @@
+Flask==2.1.1
+sqlite3==3.36.0  # This is typically bundled with Python, but can be specified if needed
+requests==2.28.1  # Required for sending HTTP requests (in the client-side script)
+
+
+Explanation:
+1. Flask: The main web framework used for building the server.
+2. sqlite3: SQLite is included in the standard Python library in most environments, but specifying the version here is useful for environments where it may need to be installed separately.
+3. requests: This library is used in the client-side script to send keystroke data to the Flask server via POST requests.
+
+Installing Dependencies:
+To install the dependencies listed in `requirements.txt`, run the following command:
+
+
+pip install -r requirements.txt
+
+
+This will automatically install all the required libraries.
